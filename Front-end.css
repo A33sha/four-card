@@ -112,15 +112,14 @@ box-shadow: 6px 6px 6px 6px #D6D6D6;
 		float: left;
 	min-width: 200px;
 max-width: 350px;
-margin: auto 70px 0 auto;
+margin: 70px auto 35px;
 position: fixed;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 350px;
-margin: auto 0 70px auto;
-position: fixed;
+margin: 70px auto 35px;
 	}
 	#bottom{
 		min-width: 200px
