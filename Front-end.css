@@ -94,18 +94,18 @@ color:gray;
 
 @media screen and (min-width: 1440px){
 #first{
-font-size: 23px
+font-size: 27px
 margin-bottom: 7px;}
 #second{
 font-size: 20px;}
 #third{
 margin-bottom:20px;
-font-size:18px;
+font-size:19px;
 }
 	#top{
 		min-width: 200px;
 max-width: 350px;
-margin-bottom:40px;
+margin:60px auto 40px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 	#left{
@@ -123,7 +123,8 @@ margin: auto 0 70px auto;
 position: fixed;
 	}
 	#bottom{
-		min-width: 200px;
+		min-width: 200px
+margin: 40px auto 60px;
 max-width: 350px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
