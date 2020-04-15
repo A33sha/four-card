@@ -94,21 +94,25 @@ color:gray;
 
 @media screen and (min-width: 1440px){
 	#top{
-		width: 35%;
+		min-width: 200px;
+max-width: 250px,;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 	#left{
 		float: left;
-	width: 30%;
+	min-width: 200px;
+max-width: 250px;
 margin: auto 20px 0 auto ;
 	}
 	#right{
 		float: right;
-	width: 30%;
-	margin: auto 20px 0 auto ;
+	min-width: 200px;
+max-width: 250px;
+margin: auto 20px 0 auto ;
 	}
 	#bottom{
-		width: 35%;
+		min-width: 200px;
+max-width: 250px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 }
