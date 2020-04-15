@@ -6,6 +6,7 @@ body{
 	line-height: 30px;
 	font-family: Poppins, Sans-Serif;
 	font-weight: 400;
+box-sizing: border-box;
 }
 
 #first{ margin-top: 50px
