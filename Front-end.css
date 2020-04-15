@@ -105,26 +105,29 @@ font-size:19px;
 	#top{
 		min-width: 200px;
 max-width: 350px;
-margin:60px auto 40px;
+margin:40px 30px 40px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
+position: fixed;
 	}
 	#left{
 		float: left;
 	min-width: 200px;
 max-width: 350px;
-margin: 100px 60px auto 35px;
+margin: 80px 60px 0 0;
 position: fixed;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 350px;
-margin: 35px auto 60px 120px;
+margin: 0 0 60px 120px;
+position: fixed;
 	}
 	#bottom{
 		min-width: 200px
-margin: 40px auto 60px;
+margin: 20px auto 60px;
 max-width: 350px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
+position: fixed;
 	}
 }
