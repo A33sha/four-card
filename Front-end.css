@@ -97,9 +97,9 @@ color:gray;
 font-size: 25px;
 margin-bottom: 7px;}
 #second{
-font-size: 20px;}
+font-size: 25px;}
 #third{
-margin-bottom:20px;
+margin-bottom:20px 0;
 font-size:19px;
 }
 	#top{
@@ -112,14 +112,14 @@ box-shadow: 6px 6px 6px 6px #D6D6D6;
 		float: left;
 	min-width: 200px;
 max-width: 350px;
-margin: 85px 30px auto 35px;
+margin: 100px 60px auto 35px;
 position: fixed;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 350px;
-margin: 35px auto 30px 85px;
+margin: 35px auto 60px 120px;
 	}
 	#bottom{
 		min-width: 200px
