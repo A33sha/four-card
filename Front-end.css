@@ -98,29 +98,28 @@ font-size: 23px}
 #second{
 font-size: 20px;}
 #third{
-margin-bottom: 25px;
-font-size:16px;
+font-size:18px;
 }
 	#top{
 		min-width: 200px;
-max-width: 250px,;
+max-width: 300px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 	#left{
 		float: left;
 	min-width: 200px;
-max-width: 250px;
-margin: auto 20px 0 auto ;
+max-width: 300px;
+margin: auto 20px 0;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 250px;
-margin: auto 20px 0 auto ;
+margin: auto 20px 0 ;
 	}
 	#bottom{
 		min-width: 200px;
-max-width: 250px;
+max-width: 300px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 }
