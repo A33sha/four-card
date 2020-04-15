@@ -94,7 +94,7 @@ color:gray;
 
 @media screen and (min-width: 1440px){
 #first{
-font-size: 27px
+font-size: 25px;
 margin-bottom: 7px;}
 #second{
 font-size: 20px;}
@@ -112,14 +112,14 @@ box-shadow: 6px 6px 6px 6px #D6D6D6;
 		float: left;
 	min-width: 200px;
 max-width: 350px;
-margin: 70px auto 35px;
+margin: 85px 30px auto 35px;
 position: fixed;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 350px;
-margin: 70px auto 35px;
+margin: 35px auto 30px 85px;
 	}
 	#bottom{
 		min-width: 200px
