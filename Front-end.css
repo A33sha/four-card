@@ -111,16 +111,17 @@ box-shadow: 6px 6px 6px 6px #D6D6D6;
 		float: left;
 	min-width: 200px;
 max-width: 350px;
-margin: 100px 80px 0 0;
+margin: 52% 20% 0 0;
 	}
 	#right{
 		float: right;
 	min-width: 200px;
 max-width: 350px;
+margin-right: 0 0 20% 52%
 	}
 	#bottom{
 		min-width: 150px;
-max-width: 200x;
+max-width: 200px;
 box-shadow: 6px 6px 6px 6px #D6D6D6;
 	}
 }
