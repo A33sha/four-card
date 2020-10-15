@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+}
+span{
+    font-weight: 500;
+    font-size: 22px;
+}
+h1{
+    font-size: 25px;
+}
+.container{
+    margin: 70px auto;
+    position: relative;
+    padding: 10px auto;
+    max-width: 600px;
+}
+.supervisor, .karma, .calculator, .team-builder{
+    width: 40%;
+    height: 130px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 7px 7px 5px whitesmoke, -7px -7px 5px whitesmoke;
+    border-radius: 5px;  
+}
+.supervisor{
+    border: 5px solid white;
+    border-top-color: hsl(180, 62%, 55%);
+}
+.team-builder{
+    border: 5px solid white;
+    border-top-color: hsl(0, 78%, 62%);
+}
+.karma{
+    border: 5px solid white;
+    border-top-color: hsl(34, 97%, 64%);
+}
+.calculator{
+    border: 5px solid white;
+    border-top-color: hsl(212, 86%, 64%);
+}
+svg{
+    display: block;
+    margin: 30px 10px 5px 10px;
+}
+
+@media screen and (min-width: 1440px){
+    .supervisor{
+        position: absolute;
+        left: -170px;
+        top: 90px;
+    }
+    .team-builder{
+        margin: 30px auto;
+    }
+    .karma{
+        margin: 30px auto;
+    }
+    .calculator{
+        position: absolute;
+        bottom: 100px;
+        right: -170px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1439px){
+    .main{
+        max-width: 300px;
+    }
+    .container{
+        margin-top: 10px;
+    }
+    .supervisor, .karma, .calculator, .team-builder{
+        width: 250px;
+    }
+    .supervisor, .karma, .calculator, .team-builder{
+        position: unset;
+        margin: 20px auto;
+    }
+}
